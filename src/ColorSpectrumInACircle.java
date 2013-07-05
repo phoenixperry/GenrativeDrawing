@@ -13,7 +13,7 @@ public class ColorSpectrumInACircle {
 		float angleStep = 360/segementCount; 
 		p.beginShape(p.TRIANGLE_FAN); 
 		p.vertex(p.width/2, p.height/2);
-		
+		//test
 		for(float angle=0; angle<360; angle+=angleStep){
 			//float vx = width/2 + cos(p.radians(angle))*radius; 
 		}
